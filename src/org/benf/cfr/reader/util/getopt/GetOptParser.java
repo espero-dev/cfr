@@ -101,7 +101,7 @@ public class GetOptParser {
     }
 
     private static void printErrHeader() {
-        System.err.println("CFR " + CfrVersionInfo.VERSION_INFO + "\n");
+        System.err.println("GhostDump " + CfrVersionInfo.VERSION_INFO + "\n"); // CFR = GhostDump
     }
 
     private static void printUsage() {
